@@ -1,0 +1,81 @@
+## 添加优惠券
+
+#### 请求URL
+
+· `/coupons/getAddCoupons`
+
+#### 请求方式
+
+- POST
+
+#### 参数
+
+|参数名   | 是否必选
+|store_id |  是
+|spu_id   |  是
+|start_time |  是
+|end_time |  是
+|deno     |  是
+|condition |  是
+|name |  是
+
+
+## 获取优惠券
+
+#### 请求URL
+
+· `/coupons/getCoupons`
+
+#### 请求方式
+
+- POST
+
+#### 参数
+
+|参数名   | 是否必选
+|store_id |  是
+ 
+
+
+
+
+
+## 更新优惠券
+
+#### 请求URL
+
+- `/coupons/updateCoupons`
+
+#### 请求方式
+
+- POST
+
+#### 参数
+
+|参数名   | 是否必选
+|store_id |  是
+|deno     |  是
+|condition |  是
+|start_time |  是
+|end_time |  是
+|spu_id |  是 
+|name |  是 
+
+
+
+
+## 删除优惠券
+
+#### 请求URL
+
+· `/coupons/delCoupons`
+
+#### 请求方式
+
+- POST
+
+#### 参数
+
+|参数名   | 是否必选
+|spu_id |  是
+ 

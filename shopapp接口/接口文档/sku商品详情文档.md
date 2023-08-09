@@ -1,0 +1,89 @@
+
+- 添加商品
+
+url:http://127.0.0.1:3000/sku/addshop
+
+ 协议:http
+
+ 请求方式:post
+
+|参数名称|是否必须|类型|描述|
+|---|---|---|---|
+|title|必须|string|标题|
+|spu_id|必须|string|产品id|
+|imgs|必须|string|产品图片|
+|price|必须|int|产品价格|
+|param|必须|string|产品参数|
+|stock|必须|string|股票|
+|desc_pc|必须|string|电脑端商品详情|
+|desc_app|必须|string|移动端商品详情|
+
+
+
+
+- 删除商品
+
+url:http://127.0.0.1:3000/sku/deleteshop
+
+
+ 协议:http
+
+ 请求方式:post
+
+|参数名称|是否必须|类型|描述|
+|---|---|---|---|
+|id|必须|int|标识|
+
+
+- 修改商品
+
+url:http://127.0.0.1:3000/sku/changeshop
+
+
+ 协议:http
+
+ 请求方式:post
+
+|参数名称|是否必须|类型|描述|
+|---|---|---|---|
+|id|必须|int|标识|
+|title|可选|string|标题|
+|spu_id|可选|string|产品id|
+|imgs|可选|string|产品图片|
+|price|可选|int|产品价格|
+|param|可选|string|产品参数|
+|stock|可选|string|股票|
+|desc_pc|可选|string|电脑端商品详情|
+|desc_app|可选|string|移动端商品详情|
+
+- 查询所有商品
+
+url:http://127.0.0.1:3000/sku/getshop
+
+
+ 协议:http
+
+ 请求方式:post
+
+|参数名称|是否必须|类型|描述|
+|---|---|---|---|
+|无|无|none|不需要参数|
+
+
+- 根据id获取商品 根据spu_id获取商品标题
+
+url:http://127.0.0.1:3000/sku/getItemshop
+
+
+ 协议:http
+
+ 请求方式:post
+
+|参数名称|是否必须|类型|描述|
+|---|---|---|---|
+|id|可选|int|标识|
+|spu_id|可选|int|产品Id|
+
+
+
+
